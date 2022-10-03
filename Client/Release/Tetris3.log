@@ -1,0 +1,15 @@
+﻿  Tetris3.cpp
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(219,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(229,6): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(232,30): warning C4101: 'ThreadId' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(362,6): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(405,7): warning C4101: 'buf' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(411,9): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(411,6): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(407,6): warning C4101: 'size' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(407,12): warning C4101: 'retval' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(552,6): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(597,6): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(635,12): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Tetris3.cpp(918,7): warning C4101: 'rt' :참조되지 않은 지역 변수입니다.
+  Tetris3.vcxproj -> D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\Tetris4\Release\Tetris3.exe

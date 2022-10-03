@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b30f75d9-4778-41cf-82c4-2a46220634bc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9abd387d-bf00-48f9-bd12-798b9fe6235f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b9120915-0ebe-4ef4-aeef-3c44a6d59be1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tetris3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tetris3.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="내림.wav" />
+    <Media Include="이동.wav" />
+    <Media Include="제거.wav" />
+    <Media Include="회전.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

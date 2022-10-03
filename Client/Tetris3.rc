@@ -1,0 +1,224 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+#include "winresrc.h"
+#define IDC_STATIC 0
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+"resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+"#include ""afxres.h""\r\n"
+"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+"\r\n"
+"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+POPUP "게임(&G)"
+BEGIN
+MENUITEM "회원가입", IDM_REGISTER
+MENUITEM "로그인", IDM_LOGIN
+MENUITEM SEPARATOR
+MENUITEM "공백 보이기(&E)\tE", IDM_GAME_VIEWSPACE
+MENUITEM SEPARATOR
+MENUITEM "종료(&E)\tAlt+F4", IDM_GAME_EXIT
+END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+"E", IDM_GAME_VIEWSPACE, VIRTKEY, NOINVERT
+"P", IDM_GAME_PAUSE, VIRTKEY, NOINVERT
+"Q", IDM_GAME_QUIET, VIRTKEY, NOINVERT
+"S", IDM_GAME_START, VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+
+IDB_BITMAP4             BITMAP                  "bitmap4.bmp"
+
+IDB_BITMAP5             BITMAP                  "bitmap5.bmp"
+
+IDB_BITMAP6             BITMAP                  "bitmap6.bmp"
+
+IDB_BITMAP7             BITMAP                  "bitmap7.bmp"
+
+IDB_BITMAP8             BITMAP                  "bitmap8.bmp"
+
+IDB_BITMAP9             BITMAP                  "bitmap9.bmp"
+
+IDB_BITMAP10            BITMAP                  "bitmap10.bmp"
+
+IDB_BITMAP11            BITMAP                  "bitmap11.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE2               WAVE                    "제거.wav"
+
+IDR_WAVE3               WAVE                    "내림.wav"
+
+IDR_WAVE4               WAVE                    "이동.wav"
+
+IDR_WAVE1               WAVE                    "회전.wav"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 255, 128
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "회원가입"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+DEFPUSHBUTTON   "확인", IDOK, 139, 107, 50, 14
+PUSHBUTTON      "취소", IDCANCEL, 198, 107, 50, 14
+EDITTEXT        IDC_EDIT_REGISTER_NICKNAME, 85, 75, 141, 20, ES_AUTOHSCROLL
+EDITTEXT        IDC_EDIT_REGISTER_ID, 84, 20, 141, 20, ES_AUTOHSCROLL
+EDITTEXT        IDC_EDIT_REGISTER_PW, 85, 48, 141, 20, ES_AUTOHSCROLL
+LTEXT           "아이디 :", -1, 23, 25, 47, 16
+LTEXT           "비밀번호 :", -1, 26, 53, 47, 16
+LTEXT           "닉네임 :", -1, 25, 79, 47, 16
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 255, 109
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "로그인"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+EDITTEXT        IDC_EDIT_LOGIN_ID, 119, 24, 85, 19, ES_AUTOHSCROLL
+DEFPUSHBUTTON   "확인", IDOK, 141, 88, 50, 14
+PUSHBUTTON      "취소", IDCANCEL, 198, 88, 50, 14
+LTEXT           "아이디 :", -1, 47, 30, 28, 8
+EDITTEXT        IDC_EDIT_LOGIN_PW, 121, 55, 85, 19, ES_AUTOHSCROLL
+LTEXT           "비밀번호 :", -1, 49, 62, 35, 8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+IDD_DIALOG1, DIALOG
+BEGIN
+LEFTMARGIN, 7
+RIGHTMARGIN, 248
+TOPMARGIN, 7
+BOTTOMMARGIN, 121
+END
+
+IDD_DIALOG2, DIALOG
+BEGIN
+LEFTMARGIN, 7
+RIGHTMARGIN, 248
+TOPMARGIN, 7
+BOTTOMMARGIN, 102
+END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

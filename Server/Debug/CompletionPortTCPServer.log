@@ -1,0 +1,19 @@
+﻿  CompletionPortTCPServer.cpp
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(207,3): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(217,3): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(288,8): warning C4101: 'recvbytes' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(288,19): warning C4101: 'flags' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(396,8): warning C4101: 'flags' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(586,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(595,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(596,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(597,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(602,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(637,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(638,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(643,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(652,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(672,9): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(836,37): warning C4101: 'retval' :참조되지 않은 지역 변수입니다.
+D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\CompletionPortTCPServer.cpp(1173,16): warning C4101: 'str2size' :참조되지 않은 지역 변수입니다.
+  CompletionPortTCPServer.vcxproj -> D:\3학년 1학기\네트워크프로그래밍\네트워크기말고사임\iocp로그인서버\Debug\CompletionPortTCPServer.exe
